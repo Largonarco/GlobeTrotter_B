@@ -1,6 +1,6 @@
 import express from "express";
 import { Destination } from "../models/destination.js";
-import destinationsData from "../seed_data.json" assert { type: "json" };
+import destinationsData from "../seed_data.json";
 
 const router = express.Router();
 
