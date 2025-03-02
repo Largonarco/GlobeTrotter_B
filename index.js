@@ -6,7 +6,7 @@ import mongoose from "mongoose";
 
 // Import routes
 import userRoutes from "./routes/user.js";
-import seedRoutes from "./routes/seed.js";
+// import seedRoutes from "./routes/seed.js";
 import destinationRoutes from "./routes/destination.js";
 
 // Load environment variables
@@ -35,7 +35,7 @@ mongoose
 
 // Routes
 app.use("/api/users", userRoutes);
-app.use("/api/seed", seedRoutes);
+// app.use("/api/seed", seedRoutes);
 app.use("/api/destinations", destinationRoutes);
 
 // Starting server
